@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sunrise LIFX Alarm</string>
+    <string name="action_settings">Settings</string>
+    <string name="power_toggle_on">Turn On</string>
+    <string name="power_toggle_off">Turn Off</string>
+    <string name="red_button">Red</string>
+    <string name="green_button">Green</string>
+    <string name="blue_button">Blue</string>
+    <string name="white_button">White</string>
+    <string name="sunrise_button">Sunrise</string>
+    <string name="title_activity_alarm">Sunrise</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="set_time">Set alarm time</string>
+    <string name="connect_msg">Connecting&#8230;</string>
+
+</resources>
