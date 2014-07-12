@@ -30,17 +30,6 @@
         android:onClick="setColor"/>
 
     <Button
-        android:id="@+id/sunrise_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/white_button"
-        android:layout_alignBottom="@+id/white_button"
-        android:layout_toRightOf="@+id/white_button"
-        android:fontFamily="@string/sunrise_button"
-        android:text="@string/sunrise_button"
-        android:onClick="sunriseDance"/>
-
-    <Button
         android:id="@+id/green_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,17 +50,6 @@
         android:text="@string/red_button" />
 
     <Button
-        android:id="@+id/white_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/red_button"
-        android:layout_below="@+id/green_button"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="21dp"
-        android:onClick="setColor"
-        android:text="@string/white_button" />
-
-    <Button
         android:id="@+id/set_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -89,5 +67,15 @@
         android:layout_alignParentTop="true"
         android:text="@string/connect_msg"
         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/white_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/green_button"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@+id/red_button"
+        android:onClick="setColor"
+        android:text="@string/white_button" />
 
 </RelativeLayout>
